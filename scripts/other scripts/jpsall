@@ -1,0 +1,6 @@
+#! /bin/bash
+for i in hadoop108 hadoop109 hadoop110
+do
+echo --------- $i ----------
+ssh $i "jps"
+done
